@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:qr_code_presentation/database/connection.dart';
 import 'package:qr_code_presentation/pages/qr_code.dart';
 
 void main() {
@@ -7,7 +8,6 @@ void main() {
 
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return const HomePage();
